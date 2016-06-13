@@ -1,4 +1,5 @@
 # iOS Library With Resources
+博客：http://www.galloway.me.uk/tutorials/ios-library-with-resources/、
 
 ## Introduction
 
