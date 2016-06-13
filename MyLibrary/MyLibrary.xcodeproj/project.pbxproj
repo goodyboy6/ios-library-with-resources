@@ -15,6 +15,8 @@
 		31F0691F1D0EBC4500BC8DC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31F0691D1D0EBC4500BC8DC4 /* Main.storyboard */; };
 		31F069211D0EBC4500BC8DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31F069201D0EBC4500BC8DC4 /* Assets.xcassets */; };
 		31F069241D0EBC4500BC8DC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31F069221D0EBC4500BC8DC4 /* LaunchScreen.storyboard */; };
+		31F069321D0ED7E800BC8DC4 /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = 31F069301D0ED7BB00BC8DC4 /* img1.png */; };
+		31F069331D0ED7E800BC8DC4 /* img2.png in Resources */ = {isa = PBXBuildFile; fileRef = 31F069311D0ED7BB00BC8DC4 /* img2.png */; };
 		C91BD03B14C040F900727134 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91BD03A14C040F900727134 /* Foundation.framework */; };
 		C91BD04D14C0412400727134 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91BD04C14C0412400727134 /* CoreFoundation.framework */; };
 		C91BD05B14C042AD00727134 /* MyViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C91BD05814C042AD00727134 /* MyViewController.h */; settings = {ATTRIBUTES = (); }; };
@@ -51,6 +53,8 @@
 		31F069201D0EBC4500BC8DC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31F069231D0EBC4500BC8DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31F069251D0EBC4500BC8DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31F069301D0ED7BB00BC8DC4 /* img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img1.png; sourceTree = "<group>"; };
+		31F069311D0ED7BB00BC8DC4 /* img2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img2.png; sourceTree = "<group>"; };
 		C91BD03714C040F900727134 /* libMyLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMyLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C91BD03A14C040F900727134 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C91BD03E14C040F900727134 /* MyLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyLibrary-Prefix.pch"; sourceTree = "<group>"; };
@@ -151,6 +155,8 @@
 				C91BD05814C042AD00727134 /* MyViewController.h */,
 				C91BD05914C042AD00727134 /* MyViewController.m */,
 				C91BD05A14C042AD00727134 /* MyViewController.xib */,
+				31F069301D0ED7BB00BC8DC4 /* img1.png */,
+				31F069311D0ED7BB00BC8DC4 /* img2.png */,
 				C91BD03D14C040F900727134 /* Supporting Files */,
 			);
 			path = MyLibrary;
@@ -280,6 +286,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C91BD05D14C042C300727134 /* MyViewController.xib in Resources */,
+				31F069321D0ED7E800BC8DC4 /* img1.png in Resources */,
+				31F069331D0ED7E800BC8DC4 /* img2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
