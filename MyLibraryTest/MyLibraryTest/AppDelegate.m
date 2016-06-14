@@ -1,6 +1,7 @@
 #import "AppDelegate.h"
 
 #import "MyViewController.h"
+#import "MyViewController+C.h"
 
 @implementation AppDelegate
 
