@@ -1,4 +1,5 @@
 #import "MyViewController.h"
+#import "masonry.h"
 
 @implementation MyViewController
 
@@ -16,8 +17,12 @@
     UIImage *img = [UIImage imageNamed:@"MyLibraryResources.bundle/img1"];
     UIImageView *imgView = [[UIImageView alloc] initWithImage:img];
     imgView.frame = self.view.bounds;
-    imgView.contentMode = UIViewContentModeScaleAspectFit;
+    imgView.contentMode = UIViewContentModeScaleAspectFill;
     [self.view addSubview:imgView];
+    
+    [imgView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.view);
+    }];
 }
 
 @end
